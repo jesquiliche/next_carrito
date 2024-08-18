@@ -42,8 +42,8 @@ export default function Home() {
   
   return (
     <div>
-      <h1 className="text-3xl font-bold text-center mt-5">Tienda de Vinos</h1>
-      <div className="grid grid-cols-4 gap-4 w-10/12 mx-auto">
+      <h1 className="text-3xl font-bold text-center my-5">Tienda de Vinos</h1>
+      <div className="grid grid-cols-4 gap-4 w-9/12 mx-auto">
         {products.map((product) => (
           <Product key={product.id} product={product} />
         ))}
